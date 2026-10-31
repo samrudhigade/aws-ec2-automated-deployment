@@ -27,7 +27,7 @@ To automate the website deployment process using Jenkins and AWS EC2, reducing m
 <h2>Project Architecture</h2>
 
 <p align="center">
-  <img src="images/architecture.png"
+  <img src="architecture.png"
        alt="AWS EC2 Jenkins CI/CD Architecture"
        width="100%">
 </p>
