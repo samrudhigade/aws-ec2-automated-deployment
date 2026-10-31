@@ -1,38 +1,41 @@
-AWS EC2 Automated Deployment Using Jenkins
+ 
+<h1 align="center">AWS EC2 Automated Deployment Using Jenkins</h1>
 
-Project Overview
+<h2>Project Overview</h2>
+
 This project demonstrates an automated Continuous Integration and Continuous Deployment (CI/CD) pipeline using Jenkins and AWS EC2.
 
-The pipeline automatically fetches website source code from GitHub, validates the required files, packages the website, and deploys it to an Apache web server hosted on an AWS EC2 instance.
+The pipeline fetches website source code from GitHub, validates the required files, packages the website, and deploys it to an Apache web server hosted on an AWS EC2 instance.
 
-Project Objective
+<h2>Project Objective</h2>
+
 To automate the website deployment process using Jenkins and AWS EC2, reducing manual effort and improving deployment efficiency.
 
-Technologies Used
-- Cloud Platform: Amazon Web Services (AWS)
-- Compute Service: Amazon EC2
-- CI/CD Tool: Jenkins
-- Version Control: Git and GitHub
-- Operating System: Ubuntu Linux
-- Web Server: Apache
-- Scripting: Shell Scripting
-- Secure Communication: SSH
+<h2>Technologies Used</h2>
 
-Architecture
+- AWS EC2
+- Jenkins
+- Git and GitHub
+- Ubuntu Linux
+- Apache Web Server
+- Shell Scripting
+- SSH
 
-GitHub → Jenkins Server (EC2) → Build & Package → SSH Deployment → Web Server (EC2) → Website
+<h2>Architecture</h2>
 
- CI/CD Pipeline Stages
+GitHub → Jenkins Server (EC2) → Build and Package → SSH Deployment → Web Server (EC2) → Website
 
-1. Checkout: Jenkins retrieves the source code from the GitHub repository.
-2. Validate: Checks whether the required website files are available.
-3. Package: Creates a compressed archive of the website files.
-4. Deploy: Transfers the website package to the Web Server EC2 instance using SSH.
-5. Verify: Checks whether the deployed website is accessible.
+<h2>CI/CD Pipeline Stages</h2>
 
-Project Structure
+1. <b>Checkout:</b> Jenkins retrieves source code from the GitHub repository.
+2. <b>Validate:</b> Checks whether the required website files are available.
+3. <b>Package:</b> Creates a compressed archive of the website files.
+4. <b>Deploy:</b> Transfers the website package to the Web Server EC2 instance using SSH.
+5. <b>Verify:</b> Checks whether the deployed website is accessible.
 
-```text
+<h2>Project Structure</h2>
+
+<pre>
 aws-ec2-automated-deployment/
 │
 ├── Jenkinsfile
@@ -41,23 +44,25 @@ aws-ec2-automated-deployment/
 └── website/
     ├── index.html
     └── style.css
-```
+</pre>
 
-How It Works
+<h2>How It Works</h2>
 
 - Source code is maintained in GitHub.
 - Jenkins connects to the GitHub repository.
-- The pipeline executes the defined stages automatically when triggered.
+- The pipeline executes the defined stages.
 - Website files are packaged and transferred to the Web Server EC2 instance.
 - Apache serves the deployed website.
 
-Learning Outcomes
+<h2>Learning Outcomes</h2>
 
-- Hands-on experience with Jenkins pipeline creation.
+- Jenkins pipeline creation.
 - GitHub integration with Jenkins.
 - AWS EC2 instance management.
 - Automated website deployment.
 - SSH-based remote server communication.
-- Basic CI/CD workflow implementation.
+- CI/CD workflow implementation.
 
+<h2>Author</h2>
 
+<b>Samruddhi Gade</b>
