@@ -23,7 +23,15 @@ To automate the website deployment process using Jenkins and AWS EC2, reducing m
 
 <h2>Architecture</h2>
 
-GitHub → Jenkins Server (EC2) → Build and Package → SSH Deployment → Web Server (EC2) → Website
+
+<h2>Project Architecture</h2>
+
+<p align="center">
+  <img src="images/architecture.png"
+       alt="AWS EC2 Jenkins CI/CD Architecture"
+       width="100%">
+</p>
+
 
 <h2>CI/CD Pipeline Stages</h2>
 
