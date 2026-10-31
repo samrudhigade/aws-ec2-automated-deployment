@@ -63,6 +63,4 @@ aws-ec2-automated-deployment/
 - SSH-based remote server communication.
 - CI/CD workflow implementation.
 
-<h2>Author</h2>
 
-<b>Samruddhi Gade</b>
